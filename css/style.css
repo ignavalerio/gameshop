@@ -1,0 +1,264 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Ajuste para el nombre de la fuente */
+}
+
+/* Sección Encabezado */
+#encabezado {
+  background-color: rgba(34, 34, 34, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px; /* Simplificación del padding */
+}
+
+#encabezado span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Contenedor del logotipo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+#logoencabezado {
+  padding: 20px;
+}
+
+.rojo {
+  color: rgba(208, 20, 24, 1);
+}
+
+.blanco {
+  color: white;
+}
+
+/* Estilo para los elementos de la lista */
+#encabezado ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+#encabezado ul li {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+#encabezado ul li a {
+  color: white; /* Aplicando el color aquí para evitar repetirlo */
+  text-decoration: none;
+}
+
+/* Alineación del menú a la derecha */
+#encabezado nav {
+  margin-left: auto;
+}
+
+#encabezado nav ul {
+  display: flex;
+  align-items: center;
+}
+
+#encabezado nav ul li i {
+  font-size: 26px;
+  padding: 20px 20px; /* Simplificación del padding */
+}
+
+
+ main{
+  background-color: rgba(243, 243, 243, 1);
+ }
+
+
+
+
+/* seccion banner */
+#banner {
+  display: flex;
+  justify-content: center; /* Alinea los elementos horizontalmente al centro */
+  background-size: cover;
+  height: 600px;
+  background-image: url("../img/fondobanner.png");
+}
+
+#banner-contenido {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos verticalmente uno encima del otro */
+  justify-content: center; /* Alinea el contenido verticalmente al centro */
+  align-items: center; /* Alinea el contenido horizontalmente al centro */
+  text-align: center; /* Alinea el texto horizontalmente al centro */
+}
+
+#banner .contenedor-titulo {
+  background-color: transparent;
+  height: 3rem;
+  width: auto;
+}
+
+#banner h2 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+#banner span {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(208, 20, 24, 1);
+}
+
+#banner button {
+  width: 160px;
+  height: 49px;
+  font-size: 20px;
+  background: rgba(240, 168, 62, 1);
+  border-color: transparent;
+  color: white;
+  background-color: rgba(208, 20, 24, 1);
+  margin-top: 30px; /* Añade un espacio entre el párrafo y el botón */
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.card {
+  width: 300px; /* Ancho deseado de las tarjetas */
+  margin: 10px; /* Espacio entre las tarjetas */
+  
+}
+
+#fondo-imagen {
+  background-color: white; /* Fondo blanco */
+  border-bottom: 1px solid #ccc; /* Borde claro */
+}
+
+.card-img-container {
+  width: 100%; /* Ancho del contenedor al 100% del tamaño de la tarjeta */
+  max-width: 200px; /* Ancho máximo del contenedor de la imagen */
+  height: auto; /* Altura automática para mantener la proporción de la imagen */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que exceda el contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Agrega un relleno interno para separar la imagen del borde */
+  
+  }
+
+.card-img {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Altura automática para mantener la proporción de la imagen */
+  display: block; /* Asegura que la imagen se muestre correctamente */
+}
+
+.card-body p small{
+  color:rgba(97, 157, 0, 1);
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px; /* Espacio entre el título y las tarjetas */
+  padding: 50px;
+}
+
+
+ /* prod-estrella */
+ #prod-estrella {
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+
+#prod-estrella > div {
+  display: flex;
+  justify-content: center; /* Distribuye los elementos horizontalmente con espacio entre ellos */
+  align-items: center; /* Alinea verticalmente los elementos */
+}
+
+#content-silla,
+#content-pc {
+  width:400px; /* Ancho del 50% del contenedor con un espacio de 5px entre ellos */
+  height: 300px; /* Alto fijo */
+  text-align: center; /* Alinea el texto */
+  overflow: hidden; /* Oculta el desbordamiento */
+  margin: 0 auto;
+}
+
+#content-silla img,
+#content-pc img {
+  width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+  height: 100%; /* Hace que la imagen ocupe todo el alto del contenedor */
+  object-fit: contain; /* Ajusta la imagen para que se ajuste dentro del contenedor */
+}
+
+
+
+#prod-estrella h2{
+  padding-top: 60px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+ /* footer */
+
+ #contacto {
+  background-color: rgba(34, 34, 34, 1);
+  padding: 50px;
+}
+
+h4 {
+  color: white !important;
+}
+
+#articulos-contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Alinea los elementos al inicio */
+}
+
+.logo-footer {
+  padding-right: 40px; /* Ajusta el padding a tu preferencia */
+}
+
+#redes-contact {
+  display: flex;
+  flex-direction: column; /* Coloca los elementos en columna */
+  align-items: flex-start; /* Alinea los elementos al inicio */
+}
+
+#redes-contact h4 {
+  margin-bottom: 10px; /* Espacio entre el título y las imágenes */
+}
+
+#redes-contact img {
+  width: 30px; /* Tamaño de las imágenes de las redes sociales */
+  margin-right: 12px; /* Espacio entre las imágenes */
+  margin-left: auto;
+}
+
+
+ 
+  /* derechos footer*/
+  footer #derechos{
+    text-align: center;
+    background-color:rgba(196, 196, 196, 1);
+    color: black;
+    padding: 2px;
+  }
